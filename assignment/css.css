@@ -5,11 +5,13 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     max-width: 100%;
     margin: 20px;
 }
 
 .section {
+    box-sizing: border-box;
     float: left;
     width: 33.33%;
     box-sizing: border-box;
@@ -21,6 +23,7 @@ body {
 }
 
 .section-title {
+    box-sizing: border-box;
     position: absolute;
     top: 0;
     right: 0;
